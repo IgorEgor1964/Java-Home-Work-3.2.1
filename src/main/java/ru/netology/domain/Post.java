@@ -15,17 +15,16 @@ public class Post {
     private boolean canEdit;
     private CommentsInfo commentsInfo;
     private int friendsOnly;
-    private int post_type;
     private int signerId;
     private int isPinned;
     private int markedAsAds;
     private int postponedId;
-    private String likesInfo;
-    private String repostsInfo;
-    private String viewsInfo;
     private Geo geo;
     private String postSource;
     private boolean isFavorite;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
 
     public int getFriendsOnly() {
         return friendsOnly;
